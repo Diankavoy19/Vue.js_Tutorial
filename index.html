@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue.js</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!--підключенння Vue.js-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+<div id="app">
+
+    <!-- v-on: or @  -->
+    <!-- <span @click="title='Текст'">Текст</span> -->
+    <!-- при наведенні мишкою  <span @mouseover="title='Текст'">Текст</span> -->
+    <!-- <span @mouseover="changeText">Текст</span>
+    <p>{{ title}}</p> -->
+    <!-- v-bind = : (скорочено)-->
+    <!--  <p :class ="styleCSS">Color:{{ styleCSS}}</p>
+    <input type="text" v-on:input="styleCSS = $event.target.value"> -->
+
+
+<!--   Обработанные свойства-->
+  <!--   <input type="text" v-on:input="increment ($event.target.value)">
+    <p>{{ value }}</p>
+    <p>{{ doubleValue }}</p> -->
+
+
+    <!--  Условия, списки и циклы и фильтры-->
+    <!-- 
+    <button v-on:click="show = !show"> Скрыть / Показать</button>
+    <p v-if="show"> Текст, який може стати невидимим</p>
+    <p v-else="show"> {{ message | lowercase | capatilize}}</p>
+
+    <ul>
+        <li v-for="(car, i) in cars">{{i+1}} - {{ car.model }}, speed: {{ car.speed }}</li>
+    </ul>
+-->
+<!-- створення компонента -->
+<!--
+<app-car></app-car>
+</div>
+
+<div id="app2">
+    <hr>
+    <app-car></app-car>
+</div>
+-->
+
+
+<script src="js/main.js"></script>
+</body>
+</html>
